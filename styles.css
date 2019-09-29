@@ -1,13 +1,62 @@
-h1{
+.header{
   background-color: #16c6d6;
   font-size: 100px;
   text-align: center;
-  color: red;
+  color: white;
+}
+ 
+.navbar {
+  background-color: #000;
+  overflow: hidden;
 }
 
-ul {
-  list-style-type: none;
-  margin:0;
-  padding:0;
-  background-color: #f1f1f1;
- }
+.navbar a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  font-size:20px;
+  padding:12px 14px;
+  font-weight: 550;
+}
+
+.navbar a.active {
+  background-color: #16c6d6;
+  
+}
+table {
+	padding: 0px 0px;
+    width: 40%;
+    
+}
+table, th, td, caption{
+	border: 1px solid black;
+}
+caption{
+	padding: 0px;
+    background-color: #16c6d6;
+    color: black;
+    font-size: 200%;
+    text-align: center;
+    border: 1px solid 
+}
+th{
+	background-color: #16c6d6;
+    color: black;
+    text-align: center;
+}
+
+td{
+	text-align: center;
+}
+
+tr:nth-child(even) {background-color: #f3f3f3;}
+
+.barrier{
+	padding: 20px 20px;
+}
