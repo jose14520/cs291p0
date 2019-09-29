@@ -60,3 +60,8 @@ tr:nth-child(even) {background-color: #f3f3f3;}
 .barrier{
 	padding: 20px 20px;
 }
+
+
+ul{
+	list-style-type:disc
+}
